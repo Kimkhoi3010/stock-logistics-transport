@@ -1034,6 +1034,13 @@ msgid "If checked, some messages have a delivery error."
 msgstr ""
 
 #. module: tms
+#: model:ir.model.fields,help:tms.field_tms_driver__team_id
+msgid ""
+"If set, this Sales Team will be used for sales and assignments related to "
+"this partner"
+msgstr ""
+
+#. module: tms
 #: model:ir.model.fields,help:tms.field_tms_driver__is_blacklisted
 msgid ""
 "If the email address is on the blacklist, the contact won't receive mass "
@@ -1421,6 +1428,11 @@ msgid "Message for Purchase Order"
 msgstr ""
 
 #. module: tms
+#: model:ir.model.fields,field_description:tms.field_tms_driver__sale_warn_msg
+msgid "Message for Sales Order"
+msgstr ""
+
+#. module: tms
 #: model:ir.model.fields,field_description:tms.field_tms_driver__picking_warn_msg
 msgid "Message for Stock Picking"
 msgstr ""
@@ -1780,6 +1792,26 @@ msgid "Routes"
 msgstr ""
 
 #. module: tms
+#: model:ir.model.fields,field_description:tms.field_tms_driver__sale_order_count
+msgid "Sale Order Count"
+msgstr ""
+
+#. module: tms
+#: model:ir.model.fields,field_description:tms.field_tms_driver__sale_order_ids
+msgid "Sales Order"
+msgstr ""
+
+#. module: tms
+#: model:ir.model.fields,field_description:tms.field_tms_driver__team_id
+msgid "Sales Team"
+msgstr ""
+
+#. module: tms
+#: model:ir.model.fields,field_description:tms.field_tms_driver__sale_warn
+msgid "Sales Warnings"
+msgstr ""
+
+#. module: tms
 #: model:ir.model.fields,field_description:tms.field_tms_driver__user_id
 msgid "Salesperson"
 msgstr ""
@@ -1819,6 +1851,7 @@ msgstr ""
 #: model:ir.model.fields,help:tms.field_tms_driver__invoice_warn
 #: model:ir.model.fields,help:tms.field_tms_driver__picking_warn
 #: model:ir.model.fields,help:tms.field_tms_driver__purchase_warn
+#: model:ir.model.fields,help:tms.field_tms_driver__sale_warn
 msgid ""
 "Selecting the \"Warning\" option will notify user with the message, "
 "Selecting \"Blocking Message\" will throw an exception with the message and "
