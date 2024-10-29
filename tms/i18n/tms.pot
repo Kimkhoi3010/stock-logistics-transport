@@ -856,6 +856,16 @@ msgid "Employee"
 msgstr ""
 
 #. module: tms
+#: model:ir.model.fields,field_description:tms.field_tms_driver__employee_ids
+msgid "Employees"
+msgstr ""
+
+#. module: tms
+#: model:ir.model.fields,field_description:tms.field_tms_driver__employees_count
+msgid "Employees Count"
+msgstr ""
+
+#. module: tms
 #: model_terms:ir.ui.view,arch_db:tms.res_config_settings_view_form
 msgid "Enable the creation of stops in a route"
 msgstr ""
@@ -1754,6 +1764,11 @@ msgstr ""
 #. module: tms
 #: model:ir.model.fields,field_description:tms.field_tms_driver__parent_id
 msgid "Related Company"
+msgstr ""
+
+#. module: tms
+#: model:ir.model.fields,help:tms.field_tms_driver__employee_ids
+msgid "Related employees based on their private address"
 msgstr ""
 
 #. module: tms
