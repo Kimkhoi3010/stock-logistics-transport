@@ -57,6 +57,11 @@ msgid "Fuel expenses for transportation trips"
 msgstr ""
 
 #. module: tms_expense
+#: model:ir.model,name:tms_expense.model_tms_driver
+msgid "TMS Drivers"
+msgstr ""
+
+#. module: tms_expense
 #: model:product.template,name:tms_expense.expense_trip_toll_product_template
 msgid "Toll"
 msgstr ""
@@ -83,9 +88,4 @@ msgstr ""
 #: code:addons/tms_expense/models/hr_expense.py:0
 #, python-format
 msgid "Trip: %s"
-msgstr ""
-
-#. module: tms_expense
-#: model:ir.model,name:tms_expense.model_tms_driver
-msgid "tms.driver"
 msgstr ""
