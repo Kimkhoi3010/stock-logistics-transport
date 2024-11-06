@@ -2060,6 +2060,16 @@ msgid "Supplier Rank"
 msgstr ""
 
 #. module: tms
+#: model:ir.model,name:tms.model_tms_driver
+msgid "TMS Drivers"
+msgstr ""
+
+#. module: tms
+#: model:ir.model,name:tms.model_tms_insurance
+msgid "TMS Insurance"
+msgstr ""
+
+#. module: tms
 #: model_terms:ir.ui.view,arch_db:tms.tms_team_view_kanban
 msgid "TRIPS"
 msgstr ""
@@ -2618,14 +2628,4 @@ msgstr ""
 #. module: tms
 #: model:uom.uom,name:tms.uom_mph
 msgid "mph"
-msgstr ""
-
-#. module: tms
-#: model:ir.model,name:tms.model_tms_driver
-msgid "tms.driver"
-msgstr ""
-
-#. module: tms
-#: model:ir.model,name:tms.model_tms_insurance
-msgid "tms.insurance"
 msgstr ""
